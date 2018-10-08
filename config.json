@@ -1,0 +1,29 @@
+{
+  "default": {
+    "db": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "database": "employees",
+      "user": "root",
+      "password": "root"
+    }
+  },
+  "test": {
+    "db": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "database": "employees",
+      "user": "root",
+      "password": "root"
+    }
+  },
+  "production": {
+    "db": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "database": "employees",
+      "user": "root",
+      "password": "root"
+    }
+  }
+}
