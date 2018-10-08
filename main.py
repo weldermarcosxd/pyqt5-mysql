@@ -60,7 +60,7 @@ if __name__ == "__main__":
     db = conn.getConnection(sys.argv[1]) if len(sys.argv) > 1 else conn.getConnection()
 
     print(db.lastError().text())
-    print("PluginsPath =>          " + QtCore.QLibraryInfo.location(QtCore.QLibraryInfo.PluginsPath))
+    #print("PluginsPath =>          " + QtCore.QLibraryInfo.location(QtCore.QLibraryInfo.PluginsPath))
 
     MainWindow.show()
     sys.exit(app.exec_())
